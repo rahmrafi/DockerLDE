@@ -17,7 +17,7 @@ services:
           memory: '128M'
 
   nodejs:
-    build: ./node
+    build: ./nodejs
     container_name : nodejs_LDE
     volumes:
       - ./www:/workspace
