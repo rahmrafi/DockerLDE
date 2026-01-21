@@ -16,7 +16,7 @@ services:
           cpus: '0.50'
           memory: '128M'
 
-  node:
+  nodejs:
     build: ./node
     container_name : nodejs_LDE
     volumes:
