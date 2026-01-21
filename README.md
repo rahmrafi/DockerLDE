@@ -27,7 +27,7 @@ DockerLDE/
 ├── docker-compose.yml
 ├── nginx
 │   └── default.conf
-├── node
+├── nodejs
 │   └── Dockerfile
 ├── php
 │   └── Dockerfile
