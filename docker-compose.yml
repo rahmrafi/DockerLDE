@@ -28,7 +28,7 @@ services:
       resources:
         limits:
           cpus: '1.00'
-          memory: '256M'
+          memory: '1G'
 
   php:
     build: ./php
@@ -73,7 +73,7 @@ services:
       resources:
         limits:
           cpus: '1.00'
-          memory: '256M'
+          memory: '1G'
 
   phpmyadmin:
     image: phpmyadmin:latest

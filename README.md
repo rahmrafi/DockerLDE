@@ -61,3 +61,8 @@ sudo docker compose ps
 ```
 sudo docker stats
 ```
+
+## How to setup DockerLDE for project
+- Tutorial for PHP/Laravel [let's go](php/setup_php.md).
+- Tutorial for Javascript [let's go](nodejs/setup_js.md) (cooming soon!).
+
