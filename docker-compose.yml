@@ -84,6 +84,8 @@ services:
       PMA_PASSWORD: admindb01
     ports:
       - 8081:80
+    volumes:
+      - ./dbmanager/login.config.inc.php:/etc/phpmyadmin/config.user.inc.php
     depends_on:
       - mysql
     deploy:
