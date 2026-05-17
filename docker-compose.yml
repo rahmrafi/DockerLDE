@@ -1,6 +1,6 @@
 services:
   nginx:
-    image: nginx:stable-alpine
+    image: nginx:1.25-alpine
     container_name: nginx_LDE
     ports:
       - 8080:80
@@ -43,7 +43,7 @@ services:
           memory: '256M'
 
   perl:
-    image: perl:stable
+    image: perl:5.38-slim
     container_name: perl_LDE
     volumes:
       - ./www:/workspace
@@ -76,7 +76,7 @@ services:
           memory: '1G'
 
   phpmyadmin:
-    image: phpmyadmin:latest
+    image: phpmyadmin:5.2-apache
     container_name: phpmyadmin_LDE
     environment:
       PMA_HOST: mysql
